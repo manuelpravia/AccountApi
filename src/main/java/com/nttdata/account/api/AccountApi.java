@@ -19,7 +19,7 @@ import javax.validation.Valid;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("api/accounts")
+@RequestMapping("accounts")
 public class AccountApi {
 
     @Autowired
